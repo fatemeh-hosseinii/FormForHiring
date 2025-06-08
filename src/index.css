@@ -1,0 +1,19 @@
+@import "tailwindcss";
+
+* {
+  font-family: 'Vazir', sans-serif;
+  direction: rtl;
+}
+
+@font-face {
+  font-family: 'Vazir';
+  src: url('/Fonts/Vazir.woff2') format('woff2'),
+       url('/Fonts/Vazir.woff') format('woff'),
+       url('/Fonts/Vazir.ttf') format('truetype');
+  font-weight: normal;
+  font-style: normal;
+  font-display: swap;
+}
+::placeholder{
+  font-size: 18px;
+}
